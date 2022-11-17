@@ -8,11 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class SpringSecurityController {
 
-    @GetMapping("/loginPage")
-    public String loginPage() {
-        return "loginPage";
-    }
-
     @GetMapping("/")
     public String main() {
         return "main";
@@ -31,6 +26,16 @@ public class SpringSecurityController {
     @GetMapping("/admin/**")
     public String admin() {
         return "admin";
+    }
+
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
+
+    @GetMapping("/denied")
+    public String denied() {
+        return "Access id denied";
     }
 
 }
