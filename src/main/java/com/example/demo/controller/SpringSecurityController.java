@@ -10,7 +10,7 @@ public class SpringSecurityController {
 
     @GetMapping("/")
     public String main() {
-        return "main";
+        return "home";
     }
 
     @GetMapping("/user")

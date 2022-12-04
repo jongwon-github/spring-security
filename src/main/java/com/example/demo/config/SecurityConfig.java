@@ -28,7 +28,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@EnableWebSecurity
+//@EnableWebSecurity
 @Slf4j
 public class SecurityConfig {
 
