@@ -1,4 +1,4 @@
-## spring-security
+### spring-security
 스프링 시큐리티 기본 API 사용법과 이와 관련된 Filter 이해
 스프링 시큐리티 내부 아키텍처와 동작 방식 이해
 실전 프로젝트를 통한 스프링 시큐리티 인증 프로세스 구현
