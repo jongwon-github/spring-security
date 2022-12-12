@@ -9,3 +9,8 @@
 3. 실전 프로젝트
    * 인증 기능 구현 – Form 방식, Ajax 인증 처리 
    * 인가 기능 구현 – DB 와 연동해서 권한 제어 시스템 구현
+
+4. 개발환경
+   * JDK 1.8 이상   
+   * DB - Postgres
+   * IDE – Intellij or STS
